@@ -1,0 +1,11 @@
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\bin\Debug\Try Something New.exe.config
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\bin\Debug\Try Something New.exe
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\bin\Debug\Try Something New.pdb
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try Something New.csproj.AssemblyReference.cache
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try Something New.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try_Something_New.Properties.Resources.resources
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try Something New.csproj.GenerateResource.cache
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try Something New.csproj.CoreCompileInputs.cache
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try Something New.exe
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try Something New.pdb
+C:\Users\micha\Desktop\Code shit\Try Something New sol\Try Something New\obj\Debug\Try_Something_New.Form1.resources
