@@ -18,6 +18,7 @@ namespace Try_Something_New{
 
         }
 
+        //social events button
         private void pictureBox1_Click(object sender, EventArgs e){
             Random rnd = new Random();
             int rando = rnd.Next(1, 5);
@@ -43,6 +44,7 @@ namespace Try_Something_New{
             }
         }
 
+        //game button
         private void pictureBox2_Click(object sender, EventArgs e){
             Random rnd = new Random();
             int rando = rnd.Next(1, 5);
@@ -68,6 +70,7 @@ namespace Try_Something_New{
             }
         }
 
+        //new skills
         private void pictureBox3_Click(object sender, EventArgs e){
             Random rnd = new Random();
             int rando = rnd.Next(1, 5);
@@ -94,6 +97,7 @@ namespace Try_Something_New{
 
         }
 
+        //indoor
         private void pictureBox4_Click(object sender, EventArgs e){
             Random rnd = new Random();
             int rando = rnd.Next(1, 5);
@@ -119,6 +123,7 @@ namespace Try_Something_New{
             }
         }
 
+        //outdoor
         private void pictureBox5_Click(object sender, EventArgs e){
             Random rnd = new Random();
             int rando = rnd.Next(1, 5);
@@ -144,6 +149,7 @@ namespace Try_Something_New{
             }
         }
 
+        //try something new
         private void pictureBox6_Click(object sender, EventArgs e){
             Random rnd = new Random();
             int rando = rnd.Next(1, 5);
