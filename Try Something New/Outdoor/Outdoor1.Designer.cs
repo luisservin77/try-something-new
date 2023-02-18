@@ -1,6 +1,6 @@
 ﻿namespace Try_Something_New
 {
-    partial class Outdoor1
+    partial class Outdoor2
     {
         /// <summary>
         /// Required designer variable.
