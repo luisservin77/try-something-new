@@ -52,8 +52,158 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Game1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game1.Designer.cs">
+      <DependentUpon>Game1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game2.Designer.cs">
+      <DependentUpon>Game2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game3.Designer.cs">
+      <DependentUpon>Game3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game4.Designer.cs">
+      <DependentUpon>Game4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game5.Designer.cs">
+      <DependentUpon>Game5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indoor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indoor1.Designer.cs">
+      <DependentUpon>Indoor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indoor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indoor2.Designer.cs">
+      <DependentUpon>Indoor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indoor3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indoor3.Designer.cs">
+      <DependentUpon>Indoor3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indoor4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indoor4.Designer.cs">
+      <DependentUpon>Indoor4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indoor5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indoor5.Designer.cs">
+      <DependentUpon>Indoor5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newskill1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newskill1.Designer.cs">
+      <DependentUpon>Newskill1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newskill2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newskill2.Designer.cs">
+      <DependentUpon>Newskill2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newskill3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newskill3.Designer.cs">
+      <DependentUpon>Newskill3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newskill4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newskill4.Designer.cs">
+      <DependentUpon>Newskill4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Newskill5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Newskill5.Designer.cs">
+      <DependentUpon>Newskill5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outdoor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outdoor1.Designer.cs">
+      <DependentUpon>Outdoor1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outdoor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outdoor2.Designer.cs">
+      <DependentUpon>Outdoor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outdoor3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outdoor3.Designer.cs">
+      <DependentUpon>Outdoor3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outdoor4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outdoor4.Designer.cs">
+      <DependentUpon>Outdoor4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Outdoor5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outdoor5.Designer.cs">
+      <DependentUpon>Outdoor5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Socialevent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socialevent1.Designer.cs">
+      <DependentUpon>Socialevent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Socialevent2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socialevent2.Designer.cs">
+      <DependentUpon>Socialevent2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Socialevent3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socialevent3.Designer.cs">
+      <DependentUpon>Socialevent3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Socialevent4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socialevent4.Designer.cs">
+      <DependentUpon>Socialevent4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Socialevent5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socialevent5.Designer.cs">
+      <DependentUpon>Socialevent5.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

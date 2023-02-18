@@ -29,84 +29,77 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.SocialEvent = new System.Windows.Forms.PictureBox();
+            this.Games = new System.Windows.Forms.PictureBox();
+            this.NewSkills = new System.Windows.Forms.PictureBox();
+            this.Indoor = new System.Windows.Forms.PictureBox();
+            this.OutDoor = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SocialEvent)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Games)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewSkills)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Indoor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OutDoor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // webBrowser1
+            // SocialEvent
             // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(0, 0);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(795, 526);
-            this.webBrowser1.TabIndex = 0;
+            this.SocialEvent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SocialEvent.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.SocialEvent.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SocialEvent.Location = new System.Drawing.Point(13, 13);
+            this.SocialEvent.Name = "SocialEvent";
+            this.SocialEvent.Size = new System.Drawing.Size(232, 173);
+            this.SocialEvent.TabIndex = 1;
+            this.SocialEvent.TabStop = false;
+            this.SocialEvent.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox1
+            // Games
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(232, 173);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.Games.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Games.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Games.Location = new System.Drawing.Point(251, 13);
+            this.Games.Name = "Games";
+            this.Games.Size = new System.Drawing.Size(253, 173);
+            this.Games.TabIndex = 2;
+            this.Games.TabStop = false;
+            this.Games.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // pictureBox2
+            // NewSkills
             // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Location = new System.Drawing.Point(251, 13);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(253, 173);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.NewSkills.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.NewSkills.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NewSkills.Location = new System.Drawing.Point(510, 12);
+            this.NewSkills.Name = "NewSkills";
+            this.NewSkills.Size = new System.Drawing.Size(234, 174);
+            this.NewSkills.TabIndex = 3;
+            this.NewSkills.TabStop = false;
+            this.NewSkills.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // pictureBox3
+            // Indoor
             // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(510, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(234, 174);
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
+            this.Indoor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Indoor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Indoor.Location = new System.Drawing.Point(12, 192);
+            this.Indoor.Name = "Indoor";
+            this.Indoor.Size = new System.Drawing.Size(233, 176);
+            this.Indoor.TabIndex = 4;
+            this.Indoor.TabStop = false;
+            this.Indoor.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // pictureBox4
+            // OutDoor
             // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 192);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(233, 176);
-            this.pictureBox4.TabIndex = 4;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Location = new System.Drawing.Point(511, 192);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(234, 176);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.OutDoor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.OutDoor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.OutDoor.Location = new System.Drawing.Point(511, 192);
+            this.OutDoor.Name = "OutDoor";
+            this.OutDoor.Size = new System.Drawing.Size(234, 176);
+            this.OutDoor.TabIndex = 5;
+            this.OutDoor.TabStop = false;
+            this.OutDoor.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox6
             // 
@@ -119,6 +112,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(732, 140);
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
             // 
@@ -134,23 +128,24 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(795, 526);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(764, 526);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.webBrowser1);
+            this.Controls.Add(this.OutDoor);
+            this.Controls.Add(this.Indoor);
+            this.Controls.Add(this.NewSkills);
+            this.Controls.Add(this.Games);
+            this.Controls.Add(this.SocialEvent);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Try Something New";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SocialEvent)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Games)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NewSkills)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Indoor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OutDoor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
@@ -158,13 +153,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox SocialEvent;
+        private System.Windows.Forms.PictureBox Games;
+        private System.Windows.Forms.PictureBox NewSkills;
+        private System.Windows.Forms.PictureBox Indoor;
+        private System.Windows.Forms.PictureBox OutDoor;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
     }
